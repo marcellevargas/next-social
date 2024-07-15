@@ -3,10 +3,10 @@ import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
     return(
-        <div className="">
+        <div className="h-24 flex items-center justify-between">
             {/* LEFT */}
             <div className="">
-                <Link href="/">Social App</Link>
+                <Link className="font-bold text-xl text-blue-600" href="/">Social App</Link>
             </div>
             {/* CENTER */}
             {/* RIGHT */}
